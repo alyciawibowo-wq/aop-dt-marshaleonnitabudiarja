@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px 3%;
+    min-height: 100vh;
+    background: linear-gradient(110deg,#e5e8ed, #e3d7c8, #f5c4c4);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+#page1 .Alycia-Marsha-header {
+    width: 100%;
+    min-height: 58px;
+    background-color: #fffafa;
+    border-radius: 50px;
+    box-shadow:
+        0 0 10px rgba(255, 204, 170, 0.6),
+        0 0 25px rgba(255, 183, 140, 0.4),
+        0 0 45px rgba(255, 160, 110, 0.3);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5px 35px;
+    margin-bottom: 20px;
+}
+
+#page1 .Alycia-Marsha-logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#page1 .Alycia-Marsha-logos img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+}
+
+#page1 .Alycia-Marsha-header h3 {
+    color: #160b4c;
+    font-size: 16px;
+    text-align: right;
+}
+
+
+
+#page1 .Alycia-Marsha-container {
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 40px 4%;
+    gap: 25px;
+}
+
+
+
+#page1 .Alycia-Marsha-left {
+    width: 48%;
+}
+
+#page1 .Alycia-Marsha-left img{
+    width: 90%;
+    height: auto;
+    display:flex;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+
+#page1 .Alycia-Marsha-right {
+    width: 50%;
+    text-align: center;
+}
+
+#page1 .Alycia-Marsha-right h2 {
+    color: #160b4c;
+    font-family:'Times New Roman', Times, serif;
+    font-size: clamp(28px, 5.8vw, 56px);
+    line-height: 1.05;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style :italic;
+}
+
+#page1 .Alycia-Marsha-right h1 {
+    color: #ffdc52;
+    font-size:clamp(30px, 6vw, 60px);
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+#page1 .Alycia-Marsha-right h3 {
+    color: #1b3d9b;
+    font-size: clamp(20px, 3vw, 30px);
+    margin: 3px 0 12px;
+    font-style:italic;
+}
+
+#page1 .Alycia-Marsha-right p {
+    color : black;
+    font-weight: bold;
+}
+
+
+
+#page1 .Alycia-Marsha-login-box {
+    background: linear-gradient(180deg,#fff9e0,#fffbee,#fffefc);
+    border-radius: 16px;
+    padding: 15px 30px;
+    width: 85%;
+    min-height: 260px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 
+        0 0 10px rgba(255, 242, 166, 0.6),
+        0 0 25px rgba(255, 242, 166, 0.5),
+        0 0 45px rgba(255, 230, 130, 0.4);
+}
+
+#page1 .Alycia-Marsha-login-box label {
+    display: block;
+    color: #160b4c;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#page1 .Alycia-Marsha-login-box input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #d5d5e5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+#page1 .Alycia-Marsha-login-box input:focus {
+    border-color: #1b3d9b;
+}
+
+
+
+#page1 .Alycia-Marsha-login-box button {
+    width: 100%;
+    height: 38px;
+    background-color: #160b4c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#page1 .Alycia-Marsha-login-box button:hover {
+    background-color: #2b1b78;
+}
+
+#page1 .Alycia-Marsha-contact {
+    text-align: center;
+    font-size: 12px;
+    color: #160b4c;
+}
+
+#page1 .Alycia-Marsha-contact a {
+    color: #1b3d9b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#page1 .Alycia-Marsha-contact a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+#page2 {
+    display: none;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 40px 35px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.12);
+    border-top: 8px solid #ff6b8b;
+    box-sizing: border-box;
+    display: block;
+}
+
+#page2 p.Marsha-Alycia {
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#page2 img.Marsha-Alycia {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    margin: 15 8px;
+}
+
+#page2 h2 {
+    color: #ff4757;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.Marsha-Alycia-marquee-box {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.Marsha-Alycia-marquee-text {
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+
+#page2 h3.Marsha-Alycia {
+    color: #2f3542;
+    font-size: 16px;
+    border-bottom: 2px solid #ffdde1;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+#page2 label {
+    display: block;
+    color: #2f3542;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+#page2 span.Marsha-Alycia {
+    display: block;
+    margin-top: 10px;
+}
+
+#page2 label.Marsha-Alycia {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    color: #2f3542;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+#page2 label.Marsha-Alycia input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#page2 a.Marsha-Alycia {
+    color: #ff4757;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+#page2 a.Marsha-Alycia:hover {
+    text-decoration: underline;
+}
+
+#page2 input[type="text"], 
+#page2 select, 
+#page2 textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #dfe4ea;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#page2 input[type="text"]:focus, 
+#page2 select:focus, 
+#page2 textarea:focus {
+    border-color: #ff6b8b;
+    background-color: #fff9f9;
+}
+
+
+
+#page2 p.Marsha-Alycia a.Marsha-Alycia:hover {
+    background-color: #ff4757;
+    text-decoration: none;
+}
+
+#page2 input[type="file"] {
+    font-size: 13px;
+    color: #57606f;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#page2 input[type="submit"].Marsha-Alycia {
+    background-color: #2ed573;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#page2 input[type="submit"].Marsha-Alycia:hover {
+    background-color: #26af5f;
+}
+
+#page2 input[type="reset"].Marsha-Alycia {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+#page2 input[type="reset"].Marsha-Alycia:hover {
+    background-color: #e84118;
+}
+
+#page2 .back-button {
+    background-color: #160b4c;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    gap:20px;
+    cursor: pointer;
+}
+
+#page2 .back-button:hover {
+    background-color: #2b1b78;
+}
+
+
+
+#page2 {
+    display: none;
+}
+
+body:has(#page2:target) #page1 {
+    display: none;
+}
+
+body:has(#page2:target) #page2 {
+    display: block;
+}
+
+body:has(#page2:target) {
+    background: linear-gradient(135deg, #ffdde1 0%, #ee9ca7 100%);
+    padding: 40px 20px;
+}
+
+
+
